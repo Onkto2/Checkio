@@ -7,4 +7,4 @@ Checkio.org solutions for Python
 4. SecondIndex - [26-Nov-2017] - no lamba solution, but works fine
 5. BetweenMarkers - [27-Nov-2017] - Not the most elegant
 6. FizzBuzz - [30-Nov-2017] - No Comment
-7. MostNumbers
+7. MostNumbers - [30-Nov-2017] - Need to learn difference between *args and args
