@@ -6,4 +6,5 @@ Checkio.org solutions for Python
 3. First_Word - [26-Nov-2017] - not very pretty
 4. SecondIndex - [26-Nov-2017] - no lamba solution, but works fine
 5. BetweenMarkers - [27-Nov-2017] - Not the most elegant
-6.
+6. FizzBuzz - [30-Nov-2017] - No Comment
+7. MostNumbers
