@@ -1,0 +1,12 @@
+nameslist = []
+names = ["Alf", "Brenda", "Charlie", "Amanda", None, 12836]
+input_letter = "A"
+x=0
+
+for i in names:
+    if isinstance(i,str):
+        if i[0] == "A":
+            nameslist.append(names[x])
+    x=x+1
+
+print(nameslist)
