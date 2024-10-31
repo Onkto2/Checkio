@@ -1,0 +1,25 @@
+def changing_direction(elements: list[int]) -> int:
+    # your code here
+    flow = 1
+    counter = 0
+    x=1
+    length = len(elements)
+    while x < length:
+        if flow == 1 and elements[(x-1)] <= elements[x]:
+            x=x+1
+        elif flow == 0 and elements[(x-1)] <= elements[x]:
+            
+            flow = 1
+            x=x+1
+            counter = counter + 1
+            print(counter)
+        elif flow == 1 and elements[(x-1)] > elements[x]:
+            
+            flow = 0
+            x=x+1
+            counter = counter + 1
+            print(counter)
+        elif flow == 0 and elements[(x-1)] > elements[x]:
+            x=x+1
+          
+    return counter
